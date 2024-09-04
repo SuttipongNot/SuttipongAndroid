@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seaherch_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:background="@drawable/shape_1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewResearch"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginTop="100dp"
+            style="@style/textResearch"
+            android:textAlignment="center"
+            android:text="Research" />
+
+        <EditText
+            android:id="@+id/editTextResearch"
+            style="@style/edit_text"
+            android:layout_width="303dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="25dp"
+            android:autofillHints="@string/title_ProductID"
+            android:hint="@string/title_ProductID"
+            android:inputType="text"
+            android:ems="10"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            >
+
+
+            <Button
+                android:id="@+id/button"
+                style="@style/btn_add_product"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="ADD DATA" />
+
+            <Button
+                android:id="@+id/buttonSearch"
+                style="@style/btn_search_product"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Search" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

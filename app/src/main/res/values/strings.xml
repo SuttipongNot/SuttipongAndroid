@@ -1,0 +1,22 @@
+<resources>
+    <string name="root_url">http://10.13.1.135:3000</string>
+    <string name="add_product_url">/add_product_computer</string>
+    <string name="show_product_url">/product_computer/</string>
+
+
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_NameBrand">Namebrand</string>
+    <string name="title_Model">Model</string>
+    <string name="title_Quantity">Quantity</string>
+    <string name="title_Price">Price</string>
+    <string name="title_CPUspeed">CPUSpeed</string>
+    <string name="title_SerialNumber">SerialNumber</string>
+    <string name="title_MemoryRam">Memory</string>
+    <string name="title_MemoryHarddisk">Harddisk</string>
+    <string name="title_ProductID">Product ID</string>
+
+    <string name="txt_NameBrand">Name Brand</string>
+</resources>

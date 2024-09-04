@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textshow">
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:background">@drawable/shape_1</item>
+        <item name="android:paddingHorizontal">15dp</item>
+        <item name="android:textColor">#9CD0D0D0</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+    <style name="textResearch">
+        <item name="android:paddingHorizontal">15dp</item>
+        <item name="android:textColor">#9CD0D0D0</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+    <style name="edit_text">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:background">@drawable/shape_1</item>
+        <item name="android:paddingHorizontal">15dp</item>
+        <item name="android:textColor">#9CD0D0D0</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+    <style name="edit_text1">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:background">@drawable/shape_1</item>
+        <item name="android:paddingHorizontal">15dp</item>
+        <item name="android:textColor">#9CD0D0D0</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+    <style name="edit_text2">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:background">@drawable/shape_1</item>
+        <item name="android:paddingHorizontal">15dp</item>
+        <item name="android:textColor">#9CD0D0D0</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+    <style name="edit_text3">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:background">@drawable/shape_1</item>
+        <item name="android:paddingHorizontal">15dp</item>
+        <item name="android:textColor">#9CD0D0D0</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+    <style name="btn_next">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/gray</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="btn_add_product">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/gray</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="btn_search_product">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#B4B4B4</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
